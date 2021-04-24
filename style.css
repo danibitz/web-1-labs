@@ -1,0 +1,47 @@
+.header{
+    position: absolute;
+    height: 50px;
+    width: 1640px;
+    left: 150px;
+    top: 0px;
+    right: 75px;
+    padding: 5px;
+    background-color: #f6f6f6;
+}
+.left-bar{
+    position: absolute;
+    height: 1800px;
+    width:  150px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-right: 2px solid #a2a9b1;
+    background-color: #f6f6f6;
+}
+.right-bar{
+    position: absolute;
+    height: 1800px;
+    width:  75px;
+    right: 0px;
+    left: 1800px;
+    top: 0px;
+    bottom: 0px;
+    border-left: 2px solid #a2a9b1;
+    background-color: #f6f6f6;
+}
+.main-content{
+    position: absolute;
+    height: 100%;
+    width: 1600px;
+    top: 50px;
+    left: 152px;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.main-content h1{
+    border-bottom: 2px solid #a2a9b1;
+    font-family: 'Linux Libertine','Georgia','Times',serif; 
+    font-weight: normal;
+}
